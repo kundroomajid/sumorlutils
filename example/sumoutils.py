@@ -17,7 +17,7 @@ from pprint import pformat
 
 from lxml import etree
 
-from rllibsumoutils.sumoconnector import SUMOConnector, DEFAULT_CONFIG
+from sumoconnector import SUMOConnector, DEFAULT_CONFIG
 
 # """ Import SUMO library """
 if 'SUMO_HOME' in os.environ:

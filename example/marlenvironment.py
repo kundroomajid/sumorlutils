@@ -17,8 +17,7 @@ from numpy.random import RandomState
 
 import gym
 from ray.rllib.env import MultiAgentEnv
-
-from rllibsumoutils.sumoutils import SUMOUtils, sumo_default_config
+from sumoutils import SUMOUtils, sumo_default_config
 
 # """ Import SUMO library """
 if 'SUMO_HOME' in os.environ:
